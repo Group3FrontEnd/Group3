@@ -1,10 +1,80 @@
 @use "var";
 
-.nft-hightlight{
+.nft-hightlight {
     width: 100vw;
-    
+    max-height: 660px;
+    height: 100%;
+    z-index: 0;
+    position: absolute;
+    left: 0;
 
-    &__image{
-        width: 100px;
+    &:hover .nft-hightlight__hover {
+        z-index: 2;
+        background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #A259FF 100%);
+        width: 100vw;
+        max-height: 660px;
+        height: 100%;
     }
+
+
+    &__image {
+        width: 100vw;
+        max-height: 660px;
+        height: 100%;
+        z-index: 0;
+        position: absolute;
+        left: 0;
+
+
+    }
+
+    .nft-hightlight__hover {
+        z-index: -1;
+        height: inherit;
+        width: inherit;
+        position: relative;
+        padding: 360px 9.832% 60px;
+
+    }
+}
+
+.nft-hightlight__account {
+    display: flex;
+    gap: 12px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    max-width: 150px;
+    width: 100%;
+    background: var.$bgAccount;
+    margin-bottom: 30px;
+
+    &-name{
+        color: white;
+    }
+}
+
+
+//Counter Area
+
+
+.counter-area{
+
+    &__nft-name{
+        color: white;
+        margin-bottom: 30px;
+    }
+
+    &__nft-btn{
+        padding: 19px 50px;
+        display: flex;
+        align-items: center;
+        gap: 13px;
+        border-radius: 20px;
+        background: var.$bgButton;
+    }
+
+}
+
+.nft-btn__name{
+    color: black;
 }

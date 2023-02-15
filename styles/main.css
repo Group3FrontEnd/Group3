@@ -1,6 +1,167 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-margin-before: 0em;
+          margin-block-start: 0em;
+  -webkit-margin-after: 0em;
+          margin-block-end: 0em;
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role=list],
+ol[role=list] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+li:hover {
+  cursor: grab;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: blue;
+}
+
+input[type=text],
+input[type=email],
+input[type=phone] {
+  padding-left: 10px;
+}
+
 .nft-hightlight {
   width: 100vw;
+  max-height: 660px;
+  height: 100%;
+  z-index: 0;
+  position: absolute;
+  left: 0;
+}
+.nft-hightlight:hover .nft-hightlight__hover {
+  z-index: 2;
+  background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #A259FF 100%);
+  width: 100vw;
+  max-height: 660px;
+  height: 100%;
 }
 .nft-hightlight__image {
-  width: 100px;
+  width: 100vw;
+  max-height: 660px;
+  height: 100%;
+  z-index: 0;
+  position: absolute;
+  left: 0;
+}
+.nft-hightlight .nft-hightlight__hover {
+  z-index: -1;
+  height: inherit;
+  width: inherit;
+  position: relative;
+  padding: 360px 9.832% 60px;
+}
+
+.nft-hightlight__account {
+  display: flex;
+  gap: 12px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  max-width: 150px;
+  width: 100%;
+  background: #3B3B3B;
+  margin-bottom: 30px;
+}
+.nft-hightlight__account-name {
+  color: white;
+}
+
+.counter-area__nft-name {
+  color: white;
+  margin-bottom: 30px;
+}
+.counter-area__nft-btn {
+  padding: 19px 50px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  border-radius: 20px;
+  background: #FFFFFF;
+}
+
+.nft-btn__name {
+  color: black;
 }/*# sourceMappingURL=main.css.map */
