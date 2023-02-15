@@ -1,1 +1,10 @@
 @use "var";
+
+.nft-hightlight{
+    width: 100vw;
+    
+
+    &__image{
+        width: 100px;
+    }
+}
