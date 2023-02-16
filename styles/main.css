@@ -106,7 +106,7 @@ input[type=phone] {
 
 .nft-hightlight {
   width: 100vw;
-  max-height: 660px;
+  max-height: 900px;
   height: 100%;
   z-index: 0;
   position: absolute;
@@ -115,13 +115,10 @@ input[type=phone] {
 .nft-hightlight:hover .nft-hightlight__hover {
   z-index: 2;
   background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #A259FF 100%);
-  width: 100vw;
-  max-height: 660px;
-  height: 100%;
 }
 .nft-hightlight__image {
   width: 100vw;
-  max-height: 660px;
+  max-height: 900px;
   height: 100%;
   z-index: 0;
   position: absolute;
@@ -132,7 +129,7 @@ input[type=phone] {
   height: inherit;
   width: inherit;
   position: relative;
-  padding: 360px 9.832% 60px;
+  padding: 25% 9.832% 60px;
 }
 
 .nft-hightlight__account {
@@ -161,7 +158,41 @@ input[type=phone] {
   border-radius: 20px;
   background: #FFFFFF;
 }
+.counter-area__nft-btn:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.lower-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-height: 200px;
+  padding: 30px;
+}
 
 .nft-btn__name {
   color: black;
+}
+
+.auction-timer {
+  max-width: 495px;
+  width: 100%;
+  background: rgba(59, 59, 59, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  padding: 30px;
+  border-radius: 20px;
+}
+.auction-timer__header {
+  color: white;
+  margin-bottom: 20px;
+}
+.auction-timer_timer {
+  color: white;
+  margin-bottom: 10px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
 }/*# sourceMappingURL=main.css.map */
