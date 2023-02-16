@@ -9,43 +9,45 @@
 body {
     background-color: #2B2B2B;
 }
+
 .discover {
     margin: 80px 0;
 }
+
 .see_all {
+    display: flex;
+    align-items: center;
+    gap: 5px;
     position: relative;
-    max-width: 190px;
-    width: 100px;
+    max-width: 300px;
+    width: 100%;
     height: 100%;
     max-height: 60px;
     border-radius: 20px;
     border: 2px solid #A259FF;
-    padding: 16px 0 19px 20px;
+    padding: 20px;
     background-color: #2B2B2B;
     cursor: pointer;
     transition: 0.3s;
-    font-family: 'Work Sans';
+    font-family: "Work Sans";
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 140%;
     text-align: center;
     color: #FFFFFF;
-    svg {
-        display: block;
-        width: 20px;
-        height: 20px;
-        position: absolute;
-        left: 50px;
-        top: 17px;
-       ;
-    }
+
+}
+
+.see-all__svg{
+    width: 20px;
+    height: 20px;
 }
 
 .container {
     max-width: 1050px;
     width: 100%;
-    margin: 0 auto;
+    margin: 50 auto;
 }
 
 .discover__title {
@@ -58,7 +60,7 @@ body {
         display: flex;
         flex-direction: column;
         gap: 10px;
-    
+
         h2 {
             font-family: 'Work Sans';
             font-style: normal;
@@ -98,8 +100,6 @@ body {
         flex-direction: column;
         border-radius: 20px;
         background-color: #3B3B3B;
-     
-       
     }
 
     .nft-info {
@@ -108,7 +108,7 @@ body {
         gap: 25px;
         padding: 20px 30px;
 
-    
+
         .info-name {
             display: flex;
             flex-direction: column;
@@ -151,7 +151,7 @@ body {
                 flex-direction: column;
                 gap: 8px;
 
-               :first-child {
+                &:first-child {
                     font-family: 'Space Mono';
                     font-style: normal;
                     font-weight: 400;
@@ -160,7 +160,7 @@ body {
                     color: #858584;
                 }
 
-                :last-child {
+                &:last-child {
                     font-family: 'Space Mono';
                     font-style: normal;
                     font-weight: 400;
@@ -175,7 +175,7 @@ body {
                 flex-direction: column;
                 gap: 8px;
 
-                :first-child {
+                &:first-child {
                     font-family: 'Space Mono';
                     font-style: normal;
                     font-weight: 400;
@@ -184,7 +184,7 @@ body {
                     color: #858584;
                 }
 
-                :last-child {
+                &:last-child {
                     font-family: 'Space Mono';
                     font-style: normal;
                     font-weight: 400;
@@ -225,22 +225,22 @@ body {
         position: absolute;
         left: 0;
     }
-
-    .nft-hightlight__hover {
+}
+.nft-hightlight__hover {
         z-index: -1;
         height: inherit;
         width: inherit;
         position: relative;
         padding: 30% 9.832% 60px;
 
-        @media screen and (max-width: 1280px){
+        @media screen and (max-width: 1280px) {
             padding: 40% 6% 60px;
         }
-        @media screen and (max-width: 768px){
+
+        @media screen and (max-width: 768px) {
             padding: 40% 4% 60px;
         }
-            
-        }
+
     }
 
 .nft-hightlight__account {
@@ -316,8 +316,8 @@ body {
     padding: 30px;
     border-radius: 20px;
 
-    @media screen and (max-width: 1280px){
-        max-width: 300px;
+    @media screen and (max-width: 1280px) {
+        max-width: 400px;
         width: 100%;
     }
 
@@ -328,7 +328,7 @@ body {
         font-style: normal;
         font-weight: 200;
         font-size: 20px;
-        
+
     }
 
     &__timer {
@@ -339,11 +339,13 @@ body {
         font-weight: 700;
         font-size: 48px;
         text-align: center;
-        @media screen and (max-width: 1280px){
+
+        @media screen and (max-width: 1280px) {
             font-size: 40px;
         }
     }
-    &__timer-subtitle{
+
+    &__timer-subtitle {
         color: white;
         text-align: center;
         font-family: 'Space Mono', sans-serif;
