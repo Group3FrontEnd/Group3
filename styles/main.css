@@ -881,10 +881,6 @@ span, input, button {
   border: 1px solid #858584;
 }
 
-.mail:focus {
-  border: none;
-}
-
 svg:hover {
   transform: scale(1.1);
   transition: 0.5s;
