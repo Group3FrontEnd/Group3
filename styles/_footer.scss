@@ -95,7 +95,7 @@ span, input, button {
 
    .mail {
       position: absolute;
-      max-width: 380px;
+      max-width: 420px;
       width: 100%;
       background: #FFFFFF;
       border-radius: 20px;
@@ -128,6 +128,7 @@ span, input, button {
       z-index: 16;
       cursor: pointer;
    }
+
 .rights {
    position: relative;
    font-family: 'Work Sans';
@@ -145,7 +146,8 @@ span, input, button {
    top: -20px;
    right: 0;
    left: 0;
-   width: 1080px;
+   max-width: 1150px;
+   width: 100%;
    border: 1px solid #858584;
 }
 .mail:focus {

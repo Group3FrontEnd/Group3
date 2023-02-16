@@ -8,6 +8,15 @@
   padding-inline-start: 0px;
 }
 
+input {
+  outline: none;
+}
+
+button:hover{
+  transform: scale(1.05);
+  transition: .5s;
+}
+
 /* Remove default margin */
 body,
 h1,

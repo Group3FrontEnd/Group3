@@ -14,15 +14,16 @@ body {
 }
 .see_all {
     position: relative;
-    width: 190px;
-    height: 60px;
+    max-width: 190px;
+    width: 100px;
+    height: 100%;
+    max-height: 60px;
     border-radius: 20px;
     border: 2px solid #A259FF;
     padding: 16px 0 19px 20px;
     background-color: #2B2B2B;
     cursor: pointer;
     transition: 0.3s;
-
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 600;
