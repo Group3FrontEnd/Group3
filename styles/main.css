@@ -883,4 +883,9 @@ span, input, button {
 
 .mail:focus {
   border: none;
+}
+
+svg:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
 }/*# sourceMappingURL=main.css.map */
