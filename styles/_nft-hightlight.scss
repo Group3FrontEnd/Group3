@@ -1,11 +1,11 @@
 @use "var";
 
 .nft-hightlight {
-    width: 100vw;
+    width: 100%;
     max-height: 900px;
     height: 100%;
     z-index: 0;
-    position: absolute;
+    position: relative;
     left: 0;
 
     &:hover .nft-hightlight__hover {

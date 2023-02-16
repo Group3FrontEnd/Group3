@@ -12,6 +12,8 @@ span, input, button {
 }
 
 .footer {
+   width: 100%;
+   position: absolute;
    padding: 40px 0;
    background: #3B3B3B;
    &__list {
