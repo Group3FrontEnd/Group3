@@ -1,5 +1,207 @@
 @use "var";
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2B2B2B;
+}
+.discover {
+    margin: 80px 0;
+}
+.see_all {
+    position: relative;
+    width: 190px;
+    height: 60px;
+    border-radius: 20px;
+    border: 2px solid #A259FF;
+    padding: 16px 0 19px 20px;
+    background-color: #2B2B2B;
+    cursor: pointer;
+    transition: 0.3s;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    svg {
+        display: block;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: 50px;
+        top: 17px;
+       ;
+    }
+}
+
+.container {
+    max-width: 1050px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.discover__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 60px;
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    
+        h2 {
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 38px;
+            line-height: 120%;
+            text-transform: capitalize;
+            color: #FFFFFF;
+        }
+
+        p {
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 160%;
+            text-transform: capitalize;
+            color: #FFFFFF;
+        }
+    }
+}
+
+.content__item:hover {
+
+    box-shadow: rgba(232, 225, 225, 0.1) 0px 20px 25px -5px, rgba(255, 255, 255, 0.04) 0px 10px 10px -5px;
+}
+
+.discover--content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+    .content__item {
+        transition: 0.3s;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        background-color: #3B3B3B;
+     
+       
+    }
+
+    .nft-info {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding: 20px 30px;
+
+    
+        .info-name {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+
+            h5 {
+                font-family: 'Work Sans';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 140%;
+                text-transform: capitalize;
+                color: #FFFFFF;
+            }
+
+            .author {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 12px;
+
+                h6 {
+                    font-family: 'Space Mono';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 140%;
+                    color: #FFFFFF;
+                }
+            }
+        }
+
+        .pay {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .price {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+
+               :first-child {
+                    font-family: 'Space Mono';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 110%;
+                    color: #858584;
+                }
+
+                :last-child {
+                    font-family: 'Space Mono';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 140%;
+                    color: #FFFFFF;
+                }
+            }
+
+            .bid {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+
+                :first-child {
+                    font-family: 'Space Mono';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 110%;
+                    color: #858584;
+                }
+
+                :last-child {
+                    font-family: 'Space Mono';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 140%;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+
+
+}
+
+
+
+
+
 .nft-hightlight {
     width: 100%;
     max-height: 900px;

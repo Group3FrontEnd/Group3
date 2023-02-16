@@ -110,6 +110,16 @@ body {
   background: #2B2B2B;
 }
 
+* {
+  color: #fff;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+}
+
+
+.cards {
+  margin: 40px 0 120px;
+}
 
 .how-work {
   margin-bottom: 50px;
@@ -200,6 +210,181 @@ p {
 .container_card-row--text {
   max-width: 270px;
   width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2B2B2B;
+}
+
+.discover {
+  margin: 80px 0;
+}
+
+.see_all {
+  position: relative;
+  width: 190px;
+  height: 60px;
+  border-radius: 20px;
+  border: 2px solid #A259FF;
+  padding: 16px 0 19px 20px;
+  background-color: #2B2B2B;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.see_all svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 50px;
+  top: 17px;
+}
+
+.container {
+  max-width: 1050px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.discover__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.discover__title .title {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.discover__title .title h2 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.discover__title .title p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.content__item:hover {
+  box-shadow: rgba(232, 225, 225, 0.1) 0px 20px 25px -5px, rgba(255, 255, 255, 0.04) 0px 10px 10px -5px;
+}
+
+.discover--content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.discover--content .content__item {
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: #3B3B3B;
+}
+.discover--content .nft-info {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 20px 30px;
+}
+.discover--content .nft-info .info-name {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.discover--content .nft-info .info-name h5 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.discover--content .nft-info .info-name .author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+.discover--content .nft-info .info-name .author h6 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.discover--content .nft-info .pay {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.discover--content .nft-info .pay .price {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.discover--content .nft-info .pay .price :first-child {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 110%;
+  color: #858584;
+}
+.discover--content .nft-info .pay .price :last-child {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.discover--content .nft-info .pay .bid {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.discover--content .nft-info .pay .bid :first-child {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 110%;
+  color: #858584;
+}
+.discover--content .nft-info .pay .bid :last-child {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
 }
 
 .nft-hightlight {
