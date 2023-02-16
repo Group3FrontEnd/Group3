@@ -28,10 +28,17 @@
         height: inherit;
         width: inherit;
         position: relative;
-        padding: 25% 9.832% 60px;
+        padding: 30% 9.832% 60px;
 
+        @media screen and (max-width: 1280px){
+            padding: 40% 6% 60px;
+        }
+        @media screen and (max-width: 768px){
+            padding: 40% 4% 60px;
+        }
+            
+        }
     }
-}
 
 .nft-hightlight__account {
     display: flex;
@@ -45,6 +52,8 @@
 
     &-name {
         color: white;
+        font-family: 'Space Mono', sans-serif;
+        font-style: normal;
     }
 }
 
@@ -57,6 +66,11 @@
     &__nft-name {
         color: white;
         margin-bottom: 30px;
+        font-family: 'Space Mono', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        text-align: center;
     }
 
     &__nft-btn {
@@ -66,6 +80,11 @@
         gap: 13px;
         border-radius: 20px;
         background: var.$bgButton;
+        font-family: 'Space Mono', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
 
         &:hover {
             transform: scale(1.2);
@@ -80,7 +99,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
     max-height: 200px;
-    padding: 30px;
 }
 
 .nft-btn__name {
@@ -95,19 +113,40 @@
     padding: 30px;
     border-radius: 20px;
 
+    @media screen and (max-width: 1280px){
+        max-width: 300px;
+        width: 100%;
+    }
+
     &__header {
         color: white;
         margin-bottom: 20px;
+        font-family: 'Space Mono', sans-serif;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 20px;
         
     }
 
-    &_timer {
+    &__timer {
         color: white;
         margin-bottom: 10px;
-        font-family: 'Space Mono';
+        font-family: 'Space Mono', sans-serif;
         font-style: normal;
         font-weight: 700;
-        font-size: 38px;
+        font-size: 48px;
+        text-align: center;
+        @media screen and (max-width: 1280px){
+            font-size: 40px;
+        }
+    }
+    &__timer-subtitle{
+        color: white;
+        text-align: center;
+        font-family: 'Space Mono', sans-serif;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 20px;
     }
 
 }

@@ -129,7 +129,17 @@ input[type=phone] {
   height: inherit;
   width: inherit;
   position: relative;
-  padding: 25% 9.832% 60px;
+  padding: 30% 9.832% 60px;
+}
+@media screen and (max-width: 1280px) {
+  .nft-hightlight .nft-hightlight__hover {
+    padding: 40% 6% 60px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .nft-hightlight .nft-hightlight__hover {
+    padding: 40% 4% 60px;
+  }
 }
 
 .nft-hightlight__account {
@@ -144,11 +154,18 @@ input[type=phone] {
 }
 .nft-hightlight__account-name {
   color: white;
+  font-family: "Space Mono", sans-serif;
+  font-style: normal;
 }
 
 .counter-area__nft-name {
   color: white;
   margin-bottom: 30px;
+  font-family: "Space Mono", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
 }
 .counter-area__nft-btn {
   padding: 19px 50px;
@@ -157,6 +174,11 @@ input[type=phone] {
   gap: 13px;
   border-radius: 20px;
   background: #FFFFFF;
+  font-family: "Space Mono", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
 }
 .counter-area__nft-btn:hover {
   transform: scale(1.2);
@@ -168,7 +190,6 @@ input[type=phone] {
   flex-wrap: wrap;
   justify-content: space-between;
   max-height: 200px;
-  padding: 30px;
 }
 
 .nft-btn__name {
@@ -184,15 +205,39 @@ input[type=phone] {
   padding: 30px;
   border-radius: 20px;
 }
+@media screen and (max-width: 1280px) {
+  .auction-timer {
+    max-width: 300px;
+    width: 100%;
+  }
+}
 .auction-timer__header {
   color: white;
   margin-bottom: 20px;
+  font-family: "Space Mono", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
 }
-.auction-timer_timer {
+.auction-timer__timer {
   color: white;
   margin-bottom: 10px;
-  font-family: "Space Mono";
+  font-family: "Space Mono", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 38px;
+  font-size: 48px;
+  text-align: center;
+}
+@media screen and (max-width: 1280px) {
+  .auction-timer__timer {
+    font-size: 40px;
+  }
+}
+.auction-timer__timer-subtitle {
+  color: white;
+  text-align: center;
+  font-family: "Space Mono", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
 }/*# sourceMappingURL=main.css.map */
