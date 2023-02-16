@@ -508,6 +508,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 10px;
 }
 .discover--content .content__item {
   transition: 0.3s;
@@ -611,6 +612,8 @@ body {
   background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #A259FF 100%);
 }
 .nft-hightlight__image {
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100vw;
   max-height: 900px;
   height: 100%;

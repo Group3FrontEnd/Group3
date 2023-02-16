@@ -92,6 +92,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 10px;
 
 
     .content__item {
@@ -218,6 +219,7 @@ body {
 
 
     &__image {
+        object-fit: cover;
         width: 100vw;
         max-height: 900px;
         height: 100%;
