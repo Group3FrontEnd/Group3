@@ -23,6 +23,7 @@ body{
   background: #3B3B3B;
   border-radius: 20px;
   margin-bottom: 50px;
+
   &__textBlock > h3{
     font-family: 'Work Sans';
     font-style: normal;
@@ -30,7 +31,7 @@ body{
     font-size: 38px;
     line-height: 120%;
     text-transform: capitalize;
-    color: #FFFFFF;
+
   }
   &__textBlock > p{
     padding: 10px 0 40px 0;
@@ -60,6 +61,7 @@ body{
     border: none;
     outline: none;
     width: 100%;
+    color: black;
     //styles
     font-style: normal;
     font-weight: 400;
