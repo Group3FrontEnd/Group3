@@ -766,7 +766,6 @@ span, input, button {
 }
 .footer__list .list__item p, .footer__list .list__item span {
   padding-bottom: 20px;
-  cursor: pointer;
 }
 .footer__list .list__item .item__logo {
   display: flex;
@@ -784,6 +783,7 @@ span, input, button {
   font-size: 16px;
   line-height: 140%;
   color: #CCCCCC;
+  cursor: auto;
 }
 .footer__list .socials-list {
   display: flex;
