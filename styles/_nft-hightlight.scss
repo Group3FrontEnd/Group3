@@ -323,6 +323,11 @@ body {
         width: 100%;
     }
 
+    & div{
+        display: flex;
+        justify-content: space-around;
+    }
+
     &__header {
         color: white;
         margin-bottom: 20px;

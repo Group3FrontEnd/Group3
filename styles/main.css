@@ -713,6 +713,10 @@ body {
     width: 100%;
   }
 }
+.auction-timer div {
+  display: flex;
+  justify-content: space-around;
+}
 .auction-timer__header {
   color: white;
   margin-bottom: 20px;
