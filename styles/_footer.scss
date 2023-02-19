@@ -1,152 +1,149 @@
-
-
-span, input, button {
-   display: block;
+span,
+input,
+button {
+  display: block;
 }
-
-
 
 .footer {
-   width: 100%;
-   position: absolute;
-   padding: 40px 0;
-   background: #3B3B3B;
-   &__list {
+  width: 100%;
+  position: absolute;
+  padding: 40px 0;
+  background: #3b3b3b;
+  &__list {
+    display: flex;
+    gap: 31px;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    .list__item {
+      p,
+      span {
+        padding-bottom: 20px;
+      }
+      .item__logo {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-right: 84px;
+        margin-bottom: 34px;
+        cursor: pointer;
+      }
+      .item__description-col1 {
+        max-width: 238px;
+        font-family: "Work Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #cccccc;
+        cursor: auto;
+      }
+    }
+    .socials-list {
       display: flex;
-      gap: 31px;
-      justify-content: space-between;
-      margin-bottom: 35px;
-      .list__item {
-         p, span {
-            padding-bottom: 20px;
-         }
-         .item__logo {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            margin-right: 84px;
-            margin-bottom: 34px;
-            cursor: pointer;
-         }
-         .item__description-col1 {
-            max-width: 238px;
-            font-family: 'Work Sans';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 140%;
-            color: #CCCCCC;
-            cursor:auto;
-         }
-      }
-      .socials-list {
-         display: flex;
-         gap: 10px;
+      gap: 10px;
+    }
+  }
 
-      }
-   }
+  .explore {
+    cursor: pointer;
+  }
 
-   .explore {
-      padding-right: 107px;
-   }
+  .caption {
+    margin-bottom: 25px;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+  .item__description-col2 {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #cccccc;
+    min-width: 240px;
+  }
+  .item__description-col3 {
+    max-width: 330px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #cccccc;
+  }
 
-   .caption {
-      margin-bottom: 25px;
-      font-family: 'Space Mono';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 22px;
-      line-height: 160%;
-      text-transform: capitalize;
-      color: #FFFFFF;
-      cursor: pointer;
-   }
-   .item__description-col2 {
-      font-family: 'Work Sans';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 140%;
-      color: #CCCCCC;
-   }
-   .item__description-col3 {
-      max-width: 330px;
-      font-family: 'Work Sans';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 140%;
-      color: #CCCCCC;
-   }
-   
-   .subscribe {
-      max-width: 420px;
-      width: 100%;
-   }
+  .subscribe {
+    max-width: 420px;
+    width: 100%;
+  }
 
-   .mail-form {
-      position: relative;
-   }
+  .mail-form {
+    position: relative;
+  }
 
-   .mail {
-      position: absolute;
-      max-width: 420px;
-      width: 100%;
-      background: #FFFFFF;
-      border-radius: 20px;
-      border: none;
-      font-family: 'Work Sans';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 140%;
-      color: #2B2B2B;
-      padding: 19px 20px;
-      z-index: 15;
-      }
-   }
-   .submit-btn {
-      position: absolute;
-      top: 0;
-      right: 0;
-      border-radius: 20px;
-      border: none;
-      font-family: 'Work Sans';
-      font-style: normal;
-      font-weight: 600;
-      font-size: 16px;
-      line-height: 140%;
-      text-align: center;
-      color: #FFFFFF;
-      background: #A259FF;
-      padding: 19px 50px;
-      z-index: 16;
-      cursor: pointer;
-   }
+  .mail {
+    position: absolute;
+    max-width: 420px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 20px;
+    border: none;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #2b2b2b;
+    padding: 19px 20px;
+    z-index: 15;
+  }
+}
+.submit-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 20px;
+  border: none;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+  background: #a259ff;
+  padding: 19px 50px;
+  z-index: 16;
+  cursor: pointer;
+}
 
 .rights {
-   position: relative;
-   font-family: 'Work Sans';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 12px;
-   line-height: 110%;
-   color: #CCCCCC;
-
+  position: relative;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 110%;
+  color: #cccccc;
 }
 .rights::before {
-   display: block;
-   position: absolute;
-   content: '';
-   top: -20px;
-   right: 0;
-   left: 0;
-   max-width: 1150px;
-   width: 100%;
-   border: 1px solid #858584;
+  display: block;
+  position: absolute;
+  content: "";
+  top: -20px;
+  right: 0;
+  left: 0;
+  max-width: 1150px;
+  width: 100%;
+  border: 1px solid #858584;
 }
 
-svg:hover{
-   transform: scale(1.1);
-   transition: 0.5s;
-}
+// svg:hover{
+//    transform: scale(1.1);
+//    transition: 0.5s;
+// }

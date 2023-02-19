@@ -748,7 +748,9 @@ body {
   font-size: 20px;
 }
 
-span, input, button {
+span,
+input,
+button {
   display: block;
 }
 
@@ -756,7 +758,7 @@ span, input, button {
   width: 100%;
   position: absolute;
   padding: 40px 0;
-  background: #3B3B3B;
+  background: #3b3b3b;
 }
 .footer__list {
   display: flex;
@@ -764,7 +766,8 @@ span, input, button {
   justify-content: space-between;
   margin-bottom: 35px;
 }
-.footer__list .list__item p, .footer__list .list__item span {
+.footer__list .list__item p,
+.footer__list .list__item span {
   padding-bottom: 20px;
 }
 .footer__list .list__item .item__logo {
@@ -782,7 +785,7 @@ span, input, button {
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
-  color: #CCCCCC;
+  color: #cccccc;
   cursor: auto;
 }
 .footer__list .socials-list {
@@ -790,7 +793,7 @@ span, input, button {
   gap: 10px;
 }
 .footer .explore {
-  padding-right: 107px;
+  cursor: pointer;
 }
 .footer .caption {
   margin-bottom: 25px;
@@ -800,8 +803,7 @@ span, input, button {
   font-size: 22px;
   line-height: 160%;
   text-transform: capitalize;
-  color: #FFFFFF;
-  cursor: pointer;
+  color: #ffffff;
 }
 .footer .item__description-col2 {
   font-family: "Work Sans";
@@ -809,7 +811,8 @@ span, input, button {
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
-  color: #CCCCCC;
+  color: #cccccc;
+  min-width: 240px;
 }
 .footer .item__description-col3 {
   max-width: 330px;
@@ -818,7 +821,7 @@ span, input, button {
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
-  color: #CCCCCC;
+  color: #cccccc;
 }
 .footer .subscribe {
   max-width: 420px;
@@ -831,7 +834,7 @@ span, input, button {
   position: absolute;
   max-width: 420px;
   width: 100%;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 20px;
   border: none;
   font-family: "Work Sans";
@@ -839,7 +842,7 @@ span, input, button {
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
-  color: #2B2B2B;
+  color: #2b2b2b;
   padding: 19px 20px;
   z-index: 15;
 }
@@ -856,8 +859,8 @@ span, input, button {
   font-size: 16px;
   line-height: 140%;
   text-align: center;
-  color: #FFFFFF;
-  background: #A259FF;
+  color: #ffffff;
+  background: #a259ff;
   padding: 19px 50px;
   z-index: 16;
   cursor: pointer;
@@ -870,7 +873,7 @@ span, input, button {
   font-weight: 400;
   font-size: 12px;
   line-height: 110%;
-  color: #CCCCCC;
+  color: #cccccc;
 }
 
 .rights::before {
@@ -883,9 +886,4 @@ span, input, button {
   max-width: 1150px;
   width: 100%;
   border: 1px solid #858584;
-}
-
-svg:hover {
-  transform: scale(1.1);
-  transition: 0.5s;
 }/*# sourceMappingURL=main.css.map */
